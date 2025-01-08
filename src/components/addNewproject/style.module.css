@@ -1,0 +1,28 @@
+.btn {
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px 20px;
+    min-width: 100px;
+    max-width: 200px;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn .text {
+    color: var(--darkGreyContainer);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.crossIcon {
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(246, 244, 244, 0.615);
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(189, 183, 183);
+}

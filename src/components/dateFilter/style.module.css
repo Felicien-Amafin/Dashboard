@@ -1,0 +1,9 @@
+.dateFilter {
+    padding: 5px 18px 5px 5px;
+    min-width: 160px;
+}
+.dateFilter .selectOption {
+    font-size: 0.875rem;
+    color: rgb(36, 36, 36);
+    text-align: center;
+}

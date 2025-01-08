@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+   --darkGreyText: rgb(108, 108, 108); 
+   --darkGreyContainer: rgb(152, 151, 151); 
+   --btn: rgba(230, 230, 230, 0.896);
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}   
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

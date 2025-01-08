@@ -1,0 +1,25 @@
+.header {
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(232, 231, 231);
+    background-color: white;
+}
+
+.header h1 { 
+    font-size: 1rem; 
+    color: rgb(34, 34, 34);
+}
+
+.header .btn {
+    align-items: center;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(218, 214, 214, 0.484);
+    border-radius: 50px;
+    color: grey;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.alertContainer {
+    position: fixed;
+    inset: 0 0 0 0;
+    z-index: 50000000;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 246, 246, 0.409);
+}
+
+.alert {
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    min-height: 150px;
+    padding: 20px;
+    gap: 25px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 12px 1px rgba(211, 211, 211, 0.91);
+    background-color: white;
+}
+
+.mess {
+    color: var(--darkGreyText);
+}
+
+.alertBtn {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

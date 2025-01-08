@@ -1,0 +1,18 @@
+.formInput {
+    gap: 10px;
+}
+
+.formInput label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--darkGreyText);
+}
+
+.formInput input {
+    padding: 0 12px;
+    color: rgb(77, 75, 75);
+}
+
+.formInput input:focus {
+    outline: none;
+}

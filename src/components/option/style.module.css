@@ -1,0 +1,9 @@
+.optionIcon {
+    height: 100%;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: none;
+    color: var(--darkGreyText);
+    cursor: pointer;
+}

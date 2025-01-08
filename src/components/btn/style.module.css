@@ -1,0 +1,51 @@
+.alertBtn {
+    width: 70px;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--darkGreyText);
+    font-weight: 600;
+    background-color: var(--btn);
+}
+
+.formBtn {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    color: var(--darkGreyText);
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border: 1px solid rgba(220, 218, 218, 0.802);
+}
+
+.pwdResetBtn { 
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    color: grey;
+}
+
+.btnHover:hover {
+    cursor: pointer;
+    background-color: rgba(239, 238, 238, 0.85);
+}
+
+.pwdResetBtn:hover {
+    background-color: transparent;
+}
+
+.settingBtn {
+    background-color: transparent;
+    color: var(--darkGreyText);
+    border: none;
+}
+
+.settingBtn:hover {
+    background-color: transparent;
+    color: rgb(166, 166, 166);
+    text-decoration: underline;
+}
+
+

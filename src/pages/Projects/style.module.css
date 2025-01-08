@@ -1,0 +1,19 @@
+.projects {
+    width: 90%;
+    max-width: 1400px;
+    padding-top: 30px;
+    gap: 45px;
+    margin: 0 auto;
+}
+
+.projects .options {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.projects .defaultmess {
+    padding-left: 10px;
+    color: var(--darkGreyText);
+}
