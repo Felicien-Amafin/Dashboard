@@ -20,7 +20,8 @@ const Projects = ()=> {
   const [ taskCompletedMess, setTaskCompletedMess ] = useState('');
   const dispatch = useDispatch();
 
-  const admin = user.uid === import.meta.env.VITE_ADMIN1;
+  const admin = 
+  user.uid === import.meta.env.VITE_ADMIN1 || user.uid === import.meta.env.VITE_ADMIN2;
   const boardHeaders = projectsBoardHeaders.list;
   const options = admin ? projectsBoardHeaders.admin_options : projectsBoardHeaders.client_options;
 
